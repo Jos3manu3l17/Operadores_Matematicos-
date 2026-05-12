@@ -50,3 +50,26 @@ console.log("=== Inicio del sistema del calculo de 3 notas ===");
 
 
 // ==================================================================================================
+
+console.log("=== Inicio del sistema del calculo de la operacion misteriosa ===");
+
+// 4. La operación misteriosa
+// Se tiene la expresión matemática siguiente:
+// (20+10)/5+3∗2−4(20 + 10) / 5 + 3 * 2 - 4(20+10)/5+3∗2−4
+// Tu reto es implementarla en JavaScript y analizar paso a paso en qué orden se
+// ejecutan las operaciones hasta llegar al resultado final.
+
+
+let a = parseInt(prompt("Ingrese el primer número:"));
+let b = parseInt(prompt("Ingrese el segundo número:"));
+let c = parseInt(prompt("Ingrese el divisor:"));
+
+let resultado = (a + b) / c + 3 * 2 - 4;
+
+console.log("El resultado es:", resultado);
+
+//Primero, resolvemos los parentesis en esta suma nos da 30 //
+//Luego resolvemos la divison la cual nos da 6 //
+//Luego de la division realizamos la multiplicacion donde nos da 6//
+//en esta parte de la operacion matemática realizamos primero la suma
+//La cual nos da 14 y luego, realizamos la resta de 12 - 4 = 8 el cual el resultado seria 8
