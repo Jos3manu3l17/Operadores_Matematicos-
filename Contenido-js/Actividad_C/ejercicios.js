@@ -73,3 +73,16 @@ console.log("El resultado es:", resultado);
 //Luego de la division realizamos la multiplicacion donde nos da 6//
 //en esta parte de la operacion matemática realizamos primero la suma
 //La cual nos da 14 y luego, realizamos la resta de 12 - 4 = 8 el cual el resultado seria 8
+
+
+let contadorVisitas = 100;
+contadorVisitas = contadorVisitas + 25;
+contadorVisitas = contadorVisitas - 10;
+contadorVisitas = contadorVisitas * 2;
+console.log("El valor final del contador es: " + contadorVisitas);
+
+// El contador inicia en 100 visitas
+// Recibe 25 visitas adicionales
+// Pierde 10 visitas por un error de registro
+// Finalmente se duplican las visitas
+// Mostrar el resultado final
